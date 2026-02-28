@@ -16,4 +16,6 @@ grid = GridSearchCV(
 grid.fit(X, y.values.ravel())
 
 print("Best Parameters:", grid.best_params_)
+
 print("Best Score:", grid.best_score_)
+
